@@ -7,9 +7,10 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(white, lightgoldenrodyellow);
+    height: 100%;
+    margin: 10px auto 10px auto;
+    padding: 40px;
+    background: radial-gradient(#B592A0, #EADAA2);
     text-align: center;
 }
 
@@ -17,17 +18,21 @@ h1 {
     font-size: 60px;
     padding: 10px;
     color: darkgray;
+
 }
 
 h3 {
+    font-size: 20px;
     padding: 10px;
-    color: darkgoldenrod;
+    color: #DDE8B9;
     opacity: 0.50;
 }
 
 header {
-    background-color: antiquewhite;
+    background-color: #0A2342;
     opacity: 0.75;
+    display: inline-block;
+    max-width: 1000px;
 }
 
 section {
@@ -36,6 +41,9 @@ section {
 
 table {
     text-align: center;
+    display: inline-block;
+    background-color: #62929E;
+    opacity: 0.50;
 }
 
 td {
@@ -43,4 +51,27 @@ td {
     padding: 10px;
     color: lightcyan;
     font-size: 20px;
+
+}
+
+h2 {
+    display: inline-flex;
+    color: #DDE8B9;
+    font-size: 30px;
+}
+
+.href {
+    color: #62929E;
+}
+
+article {
+    margin: auto;
+    max-width: 550px;
+    background-color: #62929E;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top: 2px solid #EADAA2;
+    border-left: 2px solid #EADAA2;
+    border-bottom: 10px solid #EADAA2;
+    border-right: 5px solid #EADAA2;
 }
